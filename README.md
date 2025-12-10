@@ -1,15 +1,15 @@
 # costum
 re seting welcome zivpn
 ```bash
-bash <(curl -sSL https://raw.githubusercontent.com/arivpnstores/costum/main/zimod.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/Pemulaajiw/costum/main/zimod.sh)
 ```
 kembali ke potato
 ```bash
-bash <(curl -sSL https://raw.githubusercontent.com/arivpnstores/costum/main/.profile)
+bash <(curl -sSL https://raw.githubusercontent.com/Pemulaajiw/costum/main/.profile)
 ```
 dual sc
 ```bash
-bash <(curl -sSL https://raw.githubusercontent.com/arivpnstores/costum/main/.bashrc)
+bash <(curl -sSL https://raw.githubusercontent.com/Pemulaajiw/costum/main/.bashrc)
 ```
 tiandhystore
 ```bash
