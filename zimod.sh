@@ -27,7 +27,7 @@ if [ -f "/usr/local/bin/zivpn-manager" ]; then
     read -p "Pilih mode (1/2) : " mode
 
     if [ "$mode" = "1" ]; then
-        bash <(curl -sSL https://raw.githubusercontent.com/arivpnstores/costum/main/.bashrc)
+        bash <(curl -sSL https://raw.githubusercontent.com/Pemulaajiw/costum/main/.bashrc)
         echo "Mode: Dual SC aktif"
 
     elif [ "$mode" = "2" ]; then
