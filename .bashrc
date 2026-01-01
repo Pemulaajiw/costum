@@ -51,7 +51,8 @@ case $pilih in
   2) menu ;;
   3) wget -q https://raw.githubusercontent.com/Pemulaajiw/udp-zivpn/main/install.sh -O /usr/local/bin/zivpn-manager \
      && chmod +x /usr/local/bin/zivpn-manager \
-     && /usr/local/bin/zivpn-manager ;;
+     && dos2unix /usr/local/bin/zivpn-manager \
+     && bash /usr/local/bin/zivpn-manager ;;
   4) desain p0t4t0 ;;
   5) menu ;;
   6) wget https://raw.githubusercontent.com/arivpnstores/v4/main/Cdy/speedtest -O /usr/bin/speedtest \
