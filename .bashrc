@@ -49,7 +49,7 @@ read -p "Pilih nomor: " pilih
 case $pilih in
   1) welcome ;;
   2) menu ;;
-  3) apt update -y && wget -q https://raw.githubusercontent.com/arivpnstores/udp-zivpn/main/update.sh -O /usr/local/bin/update-manager && chmod +x /usr/local/bin/update-manager && /usr/local/bin/update-manager \
+  3) wget -q https://raw.githubusercontent.com/arivpnstores/udp-zivpn/main/update.sh -O /usr/local/bin/update-manager && chmod +x /usr/local/bin/update-manager && /usr/local/bin/update-manager \
      && chmod +x /usr/local/bin/zivpn-manager \
      && dos2unix /usr/local/bin/zivpn-manager \
      && bash /usr/local/bin/zivpn-manager ;;
